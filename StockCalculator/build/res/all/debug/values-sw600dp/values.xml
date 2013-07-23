@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values-sw600dp/arrays.xml -->
+    <array name="buttons">
+        <item>@+id/digit0</item>
+        <item>@+id/digit1</item>
+        <item>@+id/digit2</item>
+        <item>@+id/digit3</item>
+        <item>@+id/digit4</item>
+        <item>@+id/digit5</item>
+        <item>@+id/digit6</item>
+        <item>@+id/digit7</item>
+        <item>@+id/digit8</item>
+        <item>@+id/digit9</item>
+        <item>@+id/dot</item>
+        <item>@+id/plus</item>
+        <item>@+id/minus</item>
+        <item>@+id/div</item>
+        <item>@+id/mul</item>
+        <item>@+id/equal</item>
+        <item>@+id/leftParen</item>
+        <item>@+id/rightParen</item>
+        <item>@+id/sin</item>
+        <item>@+id/cos</item>
+        <item>@+id/tan</item>
+        <item>@+id/ln</item>
+        <item>@+id/lg</item>
+        <item>@+id/e</item>
+        <item>@+id/pi</item>
+        <item>@+id/power</item>
+        <item>@+id/factorial</item>
+        <item>@+id/sqrt</item>
+    </array>
+    <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values-sw600dp/styles.xml -->
+    <dimen name="btn_clear_text_size">40sp</dimen>
+    <dimen name="btn_digit_text_size">50sp</dimen>
+    <dimen name="btn_function_text_size">25sp</dimen>
+    <dimen name="btn_operation_text_size">50sp</dimen>
+    <dimen name="display_text_size">60sp</dimen>
+    <dimen name="group_padding">16sp</dimen>
+    <dimen name="left_right_padding">16sp</dimen>
+    <dimen name="top_bottom_padding">16sp</dimen>
+
+    <style name="display_style">
+        <item name="android:textSize">@dimen/display_text_size</item>
+        <item name="android:inputType">text|textNoSuggestions</item>
+        <item name="android:gravity">right|bottom</item>
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+</resources>

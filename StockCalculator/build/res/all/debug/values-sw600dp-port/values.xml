@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values-sw600dp-port/styles.xml -->
+    <dimen name="group_padding">48sp</dimen>
+
+</resources>
