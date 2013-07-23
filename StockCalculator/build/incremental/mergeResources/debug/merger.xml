@@ -14,6 +14,31 @@
                 qualifiers=""
                 type="drawable" />
             <file
+                name="digital_button_normal_back"
+                path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\drawable\digital_button_normal_back.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="digital_button_selected_back"
+                path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\drawable\digital_button_selected_back.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edit_text_back"
+                path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\drawable\edit_text_back.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="func_button_normal_back"
+                path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\drawable\func_button_normal_back.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="func_button_selected_back"
+                path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\drawable\func_button_selected_back.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
                 name="advanced"
                 path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\drawable-hdpi\advanced.png"
                 qualifiers="hdpi"
@@ -247,6 +272,8 @@
                 path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\values\colors.xml"
                 qualifiers="" >
                 <color name="magic_flame" >#00ffffff
+                </color>
+                <color name="text_color" >#000000
                 </color>
                 <color name="button_text" >#ffffffff
                 </color>
@@ -553,14 +580,14 @@ true
                     <item name="android:background">
 @drawable/btn_function
                     </item>
-                    <item name="android:layout_marginLeft">
-1dp
+                    <item name="android:textColor">
+@color/text_color
                     </item>
                 </style>
 
                 <style name="btn_clear" >
                     <item name="android:background">
-?android:attr/selectableItemBackground
+@drawable/func_button_normal_back
                     </item>
                     <item name="android:textSize">
 @dimen/btn_clear_text_size
@@ -572,6 +599,9 @@ true
                     parent="button_style" >
                     <item name="android:background">
 @drawable/btn_digit
+                    </item>
+                    <item name="android:textColor">
+@color/text_color
                     </item>
                 </style>
 
@@ -586,7 +616,10 @@ text|textNoSuggestions
 right|center_vertical
                     </item>
                     <item name="android:textColor">
-#ffffff
+@color/text_color
+                    </item>
+                    <item name="android:background">
+@drawable/digital_button_normal_back
                     </item>
                     <item name="android:maxLines">
 1
@@ -633,6 +666,9 @@ match_parent
                     <item name="android:textSize">
 @dimen/btn_function_text_size
                     </item>
+                    <item name="android:textColor">
+@color/text_color
+                    </item>
                 </style>
 
                 <dimen name="display_text_size" >30sp
@@ -674,6 +710,9 @@ center
                     <item name="android:textSize">
 @dimen/btn_digit_text_size
                     </item>
+                    <item name="android:textColor">
+@color/text_color
+                    </item>
                 </style>
 
                 <style name="btn_operation_cell_style" >
@@ -694,6 +733,9 @@ center
                     </item>
                     <item name="android:textSize">
 @dimen/btn_operation_text_size
+                    </item>
+                    <item name="android:textColor">
+@color/text_color
                     </item>
                 </style>
 
@@ -10829,7 +10871,10 @@ right|bottom
 right|bottom
                     </item>
                     <item name="android:textColor">
-#ffffff
+@color/text_color
+                    </item>
+                    <item name="android:background">
+@drawable/digital_button_normal_back
                     </item>
                     <item name="android:maxLines">
 1

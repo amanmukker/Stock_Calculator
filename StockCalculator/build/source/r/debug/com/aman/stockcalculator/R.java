@@ -77,6 +77,7 @@ public final class R {
          */
         public static final int button_text=0x7f060000;
         public static final int magic_flame=0x7f060001;
+        public static final int text_color=0x7f060002;
     }
     public static final class dimen {
         /**  From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values/styles.xml 
@@ -107,8 +108,13 @@ public final class R {
         public static final int calc_clear_symbol=0x7f020007;
         public static final int calculator_input_field=0x7f020008;
         public static final int clear_history=0x7f020009;
-        public static final int ic_menu_overflow=0x7f02000a;
-        public static final int simple=0x7f02000b;
+        public static final int digital_button_normal_back=0x7f02000a;
+        public static final int digital_button_selected_back=0x7f02000b;
+        public static final int edit_text_back=0x7f02000c;
+        public static final int func_button_normal_back=0x7f02000d;
+        public static final int func_button_selected_back=0x7f02000e;
+        public static final int ic_menu_overflow=0x7f02000f;
+        public static final int simple=0x7f020010;
     }
     public static final class id {
         public static final int advanced=0x7f0c0026;

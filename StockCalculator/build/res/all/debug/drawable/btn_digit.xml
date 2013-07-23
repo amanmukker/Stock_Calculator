@@ -19,8 +19,9 @@
 
     <item
         android:state_pressed="true"
-        android:drawable="@drawable/btn_keyboard_key_light_pressed_holo" />
+        android:drawable="@drawable/digital_button_selected_back"
+        />
     <item
-        android:drawable="@drawable/btn_keyboard_key_light_normal_holo" />
+        android:drawable="@drawable/digital_button_normal_back" />
 </selector>
 <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/drawable/btn_digit.xml -->

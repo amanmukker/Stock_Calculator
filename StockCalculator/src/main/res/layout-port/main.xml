@@ -22,7 +22,7 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="#ff000000">
+              android:background="#ffffff">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -33,11 +33,13 @@
         android:gravity="center_vertical">
 
         <com.aman.stockcalculator.CalculatorDisplay
+
              android:id="@+id/display"
              android:layout_width="0dip"
              android:layout_height="match_parent"
              android:layout_weight="1"
-             maxDigits="@integer/max_digits">
+             maxDigits="@integer/max_digits"
+             android:background="@drawable/edit_text_back">
 
             <com.aman.stockcalculator.CalculatorEditText
                 style="@style/display_style" />
@@ -49,8 +51,7 @@
             android:layout_width="48dip"
             android:layout_height="match_parent"
             android:src="@drawable/ic_menu_overflow"
-            android:background="@android:color/transparent"
-            android:layout_marginLeft="8dip"
+            android:background="@drawable/func_button_normal_back"
             android:visibility="gone"/>
     </LinearLayout>
     <LinearLayout

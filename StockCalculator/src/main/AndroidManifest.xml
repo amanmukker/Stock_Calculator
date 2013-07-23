@@ -7,7 +7,7 @@
     <original-package android:name="com.aman.stockcalculator" />
 
     <uses-sdk
-            android:minSdkVersion="14"
+            android:minSdkVersion="16"
             android:targetSdkVersion="17" />
 
     <uses-library
