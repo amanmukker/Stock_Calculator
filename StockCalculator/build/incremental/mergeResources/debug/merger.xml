@@ -271,11 +271,23 @@
             <file
                 path="C:\Users\e586242\AndroidStudioProjects\StockCalculatorProject\StockCalculator\src\main\res\values\colors.xml"
                 qualifiers="" >
+                <color name="holo_blue_light" >#33b5e5
+                </color>
                 <color name="magic_flame" >#00ffffff
                 </color>
-                <color name="text_color" >#000000
+                <color name="white" >#ffffff
+                </color>
+                <color name="text_color" >#505050
+                </color>
+                <color name="dark_grey" >#505050
                 </color>
                 <color name="button_text" >#ffffffff
+                </color>
+                <color name="light_blue" >#78d4ff
+                </color>
+                <color name="cream" >#fff3f3f3
+                </color>
+                <color name="func_text_color" >#ffffff
                 </color>
             </file>
             <file
@@ -581,7 +593,7 @@ true
 @drawable/btn_function
                     </item>
                     <item name="android:textColor">
-@color/text_color
+@color/func_text_color
                     </item>
                 </style>
 
@@ -667,7 +679,7 @@ match_parent
 @dimen/btn_function_text_size
                     </item>
                     <item name="android:textColor">
-@color/text_color
+@color/func_text_color
                     </item>
                 </style>
 
@@ -735,7 +747,7 @@ center
 @dimen/btn_operation_text_size
                     </item>
                     <item name="android:textColor">
-@color/text_color
+@color/func_text_color
                     </item>
                 </style>
 

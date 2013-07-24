@@ -17,5 +17,11 @@
 <resources>
     <color name="magic_flame">#00ffffff</color>
     <color name="button_text">#ffffffff</color>
-    <color name="text_color">#000000</color>
+    <color name="text_color">#505050</color>
+    <color name="func_text_color">#ffffff</color>
+    <color name="light_blue">#78d4ff</color>
+    <color name="dark_grey">#505050</color>
+    <color name="white">#ffffff</color>
+    <color name="holo_blue_light">#33b5e5</color>
+    <color name="cream">#fff3f3f3</color>
 </resources>

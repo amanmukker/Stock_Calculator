@@ -27,7 +27,7 @@
        <item name="android:layout_weight">1</item>
        <item name="android:focusable">true</item>
        <item name="android:background">@drawable/btn_function</item>
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/func_text_color</item>
     </style>
 
     <style name="digit_button_style" parent="button_style">
@@ -69,7 +69,7 @@
        <item name="android:layout_height">match_parent</item>
        <item name="android:background">@drawable/btn_function</item>
        <item name="android:textSize">@dimen/btn_function_text_size</item>
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/func_text_color</item>
     </style>
 
     <style name="btn_operation_cell_style">
@@ -79,7 +79,7 @@
        <item name="android:gravity">center</item>
        <item name="android:background">@drawable/btn_function</item>
        <item name="android:textSize">@dimen/btn_operation_text_size</item>
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/func_text_color</item>
     </style>
 
     <style name="btn_digit_cell_style">

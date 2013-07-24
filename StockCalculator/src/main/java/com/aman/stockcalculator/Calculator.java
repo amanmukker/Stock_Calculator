@@ -88,6 +88,8 @@ public class Calculator extends Activity implements PanelSwitcher.Listener, Logi
             mBackspaceButton.setOnLongClickListener(mListener);
         }
 
+        
+
         mPersist = new Persist(this);
         mPersist.load();
 

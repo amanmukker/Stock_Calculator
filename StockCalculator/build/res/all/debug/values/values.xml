@@ -60,8 +60,14 @@
     </string-array>
     <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values/colors.xml -->
     <color name="button_text">#ffffffff</color>
+    <color name="cream">#fff3f3f3</color>
+    <color name="dark_grey">#505050</color>
+    <color name="func_text_color">#ffffff</color>
+    <color name="holo_blue_light">#33b5e5</color>
+    <color name="light_blue">#78d4ff</color>
     <color name="magic_flame">#00ffffff</color>
-    <color name="text_color">#000000</color>
+    <color name="text_color">#505050</color>
+    <color name="white">#ffffff</color>
     <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values/styles.xml -->
     <dimen name="btn_clear_text_size">30sp</dimen>
     <dimen name="btn_digit_text_size">40sp</dimen>
@@ -156,7 +162,7 @@
         <item name="android:layout_height">match_parent</item>
         <item name="android:background">@drawable/btn_function</item>
         <item name="android:textSize">@dimen/btn_function_text_size</item>
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/func_text_color</item>
     </style>
 
     <style name="btn_operation_cell_style">
@@ -166,7 +172,7 @@
         <item name="android:gravity">center</item>
         <item name="android:background">@drawable/btn_function</item>
         <item name="android:textSize">@dimen/btn_operation_text_size</item>
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/func_text_color</item>
     </style>
 
     <style name="btn_row_style">
@@ -187,7 +193,7 @@
         <item name="android:layout_weight">1</item>
         <item name="android:focusable">true</item>
         <item name="android:background">@drawable/btn_function</item>
-        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textColor">@color/func_text_color</item>
     </style>
 
     <style name="digit_button_style" parent="button_style">
