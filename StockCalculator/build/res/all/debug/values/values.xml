@@ -78,7 +78,7 @@
     <integer name="max_digits">14</integer>
     <!-- From: file:/C:/Users/e586242/AndroidStudioProjects/StockCalculatorProject/StockCalculator/src/main/res/values/strings.xml -->
     <string name="advanced">Advanced panel</string>
-    <string name="app_name">Calculator</string>
+    <string name="app_name">Stock Calculator++</string>
     <string name="basic">Basic panel</string>
     <string name="clear">CLR</string>
     <string name="clearDesc">clear</string>
